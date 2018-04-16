@@ -93,6 +93,8 @@ public class MainActivity extends AppCompatActivity implements ServiceAPICallbac
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
 
+            // inflate custom layout
+
             convertView = getLayoutInflater().inflate(R.layout.custom_layout, null);
 
             ImageView imageView = (ImageView)convertView.findViewById(R.id.imageView);
